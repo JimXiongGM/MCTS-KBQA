@@ -36,7 +36,7 @@ TOOL_DESC_SHORT_FB = """Given a question, you need to use the specific tools to 
 The following document includes the description of tools, the types of nodes and edges (KG schema), and some critical graph patterns.
 
 1. SearchNodes(query)
-Description: Search for nodes in the knowledge graph based on the surface name.\x20
+Description: Search for nodes in the knowledge graph based on the surface name.
 
 2. ExecuteSPARQL(sparql)
 Description: Execute a SPARQL query. You can explore the KG freely using this tool.
