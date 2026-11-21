@@ -1,0 +1,3 @@
+[mcp]
+fb = "http://127.0.0.1:28777/freebase/mcp"
+kqapro = "http://127.0.0.1:28777/wikidata-kqapro/mcp"
