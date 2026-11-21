@@ -11,13 +11,13 @@ Fast-MCTS-KBQA is a search-based knowledge base question answering framework tha
 
 ## Overview
 
-Classic MCTS estimates the value of new branches through rollouts. Fast MCTS scores each new branch immediately with information gain. `ClassicMCTSKBQA` and `FastMCTSKBQA` both inherit from `KBQATreeSearch`. [Classic MCTS](search/classic_mcts.py) · [Fast MCTS](search/fast_mcts.py) · [Shared search code](search/base.py)
+Classic MCTS estimates the value of new branches through rollouts, as implemented in [`ClassicMCTSKBQA`](search/classic_mcts.py). Fast MCTS scores each new branch immediately with information gain, as implemented in [`FastMCTSKBQA`](search/fast_mcts.py). Both inherit from [`KBQATreeSearch`](search/base.py).
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/fast_mcts_kbqa_dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="img/fast_mcts_kbqa_light.png">
-    <img alt="Fast-MCTS-KBQA overview" src="img/fast_mcts_kbqa_light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/fast_mcts_kbqa_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/fast_mcts_kbqa_light.png">
+    <img alt="Fast-MCTS-KBQA overview" src="assets/fast_mcts_kbqa_light.png">
   </picture>
 </p>
 
